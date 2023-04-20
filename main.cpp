@@ -34,8 +34,7 @@ int main ()
             }                                               //
         }                      
 
-        for ( int i = 0; i < 100; i++ )
-            draw_mandelbrot (window, mandelbrot);  
+        draw_mandelbrot (window, mandelbrot);  
 
         texture.update (mandelbrot);                        //Draw it!
         sprite.setTexture(texture);                         //
